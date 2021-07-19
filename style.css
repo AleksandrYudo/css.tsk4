@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 2px;
+    display: inline-block;
+    padding: 43px 0 43px 0
+}
+body{
+    background-image: url(img/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.container{
+    max-width: 1082px;
+    margin: auto
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 83px;
+}
+nav{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+header li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+.line{
+    display: inline-block;
+    border-bottom: 1px solid #C08D5D;
+    padding: 43px 0 44px 0;
+}
+a{
+    text-decoration: none;
+    color: #C08D5D;
+}
+h1{
+    background-image: url(img/vector1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    margin-bottom: 45px;
+}
+h1 span{
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+span::after{
+    content: "";
+    background-image: url(img/logo.svg);
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    width: 45px;
+    height: 69px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 50%;
+    margin-bottom: 72px;
+}
+.bottom{
+    text-align: center;
+
+}
+.link{
+    display: inline-block;
+    border: #C08D5D 2px solid;
+    padding-left: 15px;
+    line-height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 63px;
+}
+.link::after{
+    content: url(img/vector2.svg);
+    display: inline-block;
+    color: white;
+    width: 59px;
+    height: 64px;
+    background-color: #C08D5D;
+    margin-left: 25px;
+    text-align: center;
+}
